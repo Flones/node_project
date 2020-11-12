@@ -2,13 +2,13 @@ const express = require('express'); // Chargement Express
 const app = express(); // Instance Express
 global.bdd = require('./src/models');
 const route = require('./src/routes');
-
+const scrap = require('./src/scraping');
 
 
 /**
  * Zone de test
  */
-
+/*
 const Recipes = require('./src/models/recipesModel');
 let newRecipe = new Recipes();
 newRecipe.title = 'STEPHANO';
@@ -27,7 +27,7 @@ newRecipe.ingredients = [{
 newRecipe.zoubida = 8
 
 newRecipe.save()
-
+*/
 /**
  * End Zone de test
  */
