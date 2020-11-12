@@ -1,16 +1,22 @@
 {
   "name": "rest-api-chefclub",
   "version": "1.0.0",
-  "description": "",
+  "description": "school project nodejs mongodb react",
   "main": "main.js",
   "scripts": {
     "start": "pm2 kill && pm2 start main.js --watch && pm2 logs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Flones/node_project.git"
+  },
   "keywords": [],
   "author": "Stéphane & Ngouo",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongo": "^0.1.0",
+    "mongoose": "^5.10.13"
   }
 }
