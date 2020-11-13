@@ -1,9 +1,10 @@
 const mongoose = require('mongoose');
-
-    //mongoose.connect('mongodb://localhost/chefclub', {
+const walla = require('../../env');
+    console.log("yolo "+walla.link);
+    mongoose.connect(walla.link, {
     //mongoose.connect('mongodb+srv://Stephane:root@cluster0.bdu8e.mongodb.net/Mydatabase?retryWrites=true&w=majority', { //serv chez Nelson
     //mongoose.connect('mongodb+srv://Flones:Br2NXMNmYJm4RA9X@cluster0.bdu8e.mongodb.net/MyDatabase?retryWrites=true&w=majority', { 
-    mongoose.connect('mongodb+srv://Flones:Br2NXMNmYJm4RA9X@cluster0.cdevd.mongodb.net/ChefClub?retryWrites=true&w=majority', {
+    //mongoose.connect('mongodb+srv://Flones:Br2NXMNmYJm4RA9X@cluster0.cdevd.mongodb.net/ChefClub?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useFindAndModify: false,

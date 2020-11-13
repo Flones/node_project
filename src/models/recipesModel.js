@@ -10,6 +10,9 @@ const Recipes = new Schema({
         required: true,
         lowercase: true,
     },
+    image: {
+        type: String,
+    },
     preparationTime: {
         type: Number,
         required: true,
@@ -18,8 +21,8 @@ const Recipes = new Schema({
         type: Number,
         required: true,
     },
-    zoubida: {
-        type: Number,
+    link: {
+        type: String,
     },
     step: [{
         type: String,
@@ -32,7 +35,7 @@ const Recipes = new Schema({
         },
         quantity: {
             type: Number,
-            required: true,
+            required: false,
         },
         gramming: {
             type: String,
