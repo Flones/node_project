@@ -5,6 +5,7 @@
   "main": "main.js",
   "scripts": {
     "start": "pm2 kill && pm2 start main.js --watch && pm2 logs",
+    "mystart": "nodemon main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
