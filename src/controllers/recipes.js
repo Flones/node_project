@@ -1,5 +1,4 @@
 const Recipes = require('../models/recipesModel');
-const recipes = require('../routes/recipes');
 
 
 module.exports.allRecipes = async(req, res) => {
